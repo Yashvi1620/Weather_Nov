@@ -35,7 +35,7 @@ function myfun() {
         btn12.addEventListener("click", () => {
           remove(tr);
         });
-        Cities[i - 1].classList.add("pg");
+        Cities[i].classList.add("pg");
         let nodata = document.getElementById("nodata");
         nodata.classList.add("kg");
       });
